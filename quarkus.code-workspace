@@ -1,0 +1,42 @@
+{
+  "folders": [
+    {
+      "name": "system-rendas",
+      "path": "..\\quarkus\\system-rendas"
+    }
+  ],
+  "launch": {
+    "configurations": []
+  },
+  "settings": {
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.home": "C:\\Program Files\\RedHat\\java-11-openjdk-11.0.7-1",
+    "json.maxItemsComputed": 1000,
+    "explorer.confirmDragAndDrop": false,
+    "java.semanticHighlighting.enabled": true,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "quarkus.tools.debug.terminateProcessOnExit": "Always terminate",
+    "quarkus.tools.alwaysShowWelcomePage": true,
+    "java.format.enabled": true,
+    "[java]": {
+      "editor.defaultFormatter": "redhat.java",
+      "editor.formatOnSave": true
+    },
+    "java.configuration.runtimes": [
+      {
+        "name": "JavaSE-11",
+        "path": "C:\\Program Files\\RedHat\\java-11-openjdk-11.0.7-1"
+      }
+    ],
+  
+  }
+}

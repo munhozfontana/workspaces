@@ -1,0 +1,40 @@
+{
+  "folders": [
+    {
+      "path": "..\\angular\\training-angular"
+    },
+    {
+      "path": "..\\angular\\todo"
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "angular.ng-template",
+      "cyrilletuzi.angular-schematics",
+      "infinity1207.angular2-switcher",
+      "eg2.vscode-npm-script",
+      "christian-kohler.npm-intellisense",
+    ],
+    "unwantedRecommendations": [
+    
+      "vscjava.vscode-java-pack",
+    ]
+  },
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features",
+      "editor.formatOnSave": true,
+      
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "editor.formatOnSave": false
+  }
+}

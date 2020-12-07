@@ -1,0 +1,85 @@
+{
+	"folders": [
+		{
+			"path": "..\\dart\\syshouse"
+		},
+		{
+			"path": "..\\dart\\tdd_clean_architecture"
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"nash.awesome-flutter-snippets",
+			"dart-code.dart-code",
+			"bendixma.dart-data-class-generator",
+			"peterhdd.dartgettersetter",
+			"luanpotter.dart-import",
+			"dart-code.flutter",
+			"flutterando.flutter-mobx",
+			"davidwoo.flutter-auto-import",
+			"albert.tabout",
+			"redhat.vscode-yaml",
+		],
+		"unwantedRecommendations": [
+			"angular.ng-template",
+			"vscjava.vscode-java-pack",
+			"eg2.vscode-npm-script",
+			"christian-kohler.npm-intellisense",
+		]
+	},
+	"settings": {
+		"workbench.colorTheme": "Dracula",
+		"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+		"editor.fontLigatures": true,
+		"editor.renderLineHighlight": "gutter",
+		"dart.autoImportCompletions": true,
+		"terminal.integrated.fontSize": 14,
+		"editor.fontWeight": "400",
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.organizeImports": true,
+			"source.fixAll": true
+		},
+		"dart.flutterHotReloadOnSave": true,
+		"window.zoomLevel": 1,
+		"git.confirmSync": false,
+		"dart.warnWhenEditingFilesOutsideWorkspace": false,
+		"autoimport.filesToScan": "**/*.{dart, d}",
+		"autoimport.showNotifications": false,
+		"dart.previewFlutterUiGuides": true,
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			// "**/*.g.dart": true,
+		},
+		"autoimport.doubleQuotes": true,
+		"workbench.iconTheme": "material-icon-theme",
+		"explorer.confirmDelete": false,
+		"html.format.wrapLineLength": 200,
+		"dart.previewEmbeddedDevTools": true,
+		"cSpell.enableFiletypes": [
+			"!jsonc",
+			"dart"
+		],
+		"cSpell.enabled": true,
+		"cSpell.words": [
+			"mockito",
+			"syshouse"
+		],
+		"[dart]": {
+			"editor.formatOnSave": true,
+			"editor.formatOnType": true,
+			"editor.rulers": [
+				80
+			],
+			"editor.selectionHighlight": false,
+			"editor.suggest.snippetsPreventQuickSuggestions": false,
+			"editor.suggestSelection": "first",
+			"editor.tabCompletion": "onlySnippets",
+			"editor.wordBasedSuggestions": false,
+		},
+	}
+}

@@ -1,0 +1,52 @@
+{
+    "folders": [
+        {
+            "path": "..\\react\\AgendamentoSA"
+        }
+    ],
+    "settings":{
+        "workbench.colorTheme": "Default Dark+",
+        // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+        // "editor.fontFamily": "Fira Code",
+        "editor.fontLigatures": true,
+        // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+        "editor.rulers": [
+            80,
+            120
+        ],
+        // Aplica um sinal visual na esquerda da linha selecionada
+        "editor.renderLineHighlight": "gutter",
+        // Aumenta a fonte do terminal
+        "terminal.integrated.fontSize": 14,
+        "editor.fontWeight": "400",
+        "dart.lineLength": 80,
+        "window.zoomLevel": 1,
+        "git.confirmSync": false,
+        "dart.warnWhenEditingFilesOutsideWorkspace": false,
+        "autoimport.filesToScan": "**/*.{dart, d}",
+        "autoimport.showNotifications": true,
+        "dart.previewFlutterUiGuides": true,
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/*.g.dart": true,
+        },
+        "autoimport.doubleQuotes": true,
+        "workbench.iconTheme": "material-icon-theme",
+        "explorer.confirmDelete": false,
+        "javascript.updateImportsOnFileMove.enabled": "always",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        },
+        "eslint.validate": [
+            "javascript",
+            "javascriptreact",
+            // { "language": "typescript", "autoFix": true },
+            // { "language": "typescriptreact", "autoFix": true }
+        ],
+        "cSpell.enabled": true
+    }
+}

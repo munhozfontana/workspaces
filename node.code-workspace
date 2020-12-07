@@ -1,0 +1,47 @@
+{
+	
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint"
+		]
+	},
+	"folders": [
+		{
+			"path": "..\\node\\clean-node-api"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Dracula",
+		// "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+		// "editor.fontFamily": "Fira Code",
+		"editor.fontLigatures": true,
+		"editor.rulers": [
+			80,
+			120
+		],
+		// // Aplica um sinal visual na esquerda da linha selecionada
+		"editor.renderLineHighlight": "gutter",
+		// // Aumenta a fonte do terminal
+		"terminal.integrated.fontSize": 14,
+		"editor.fontWeight": "400",
+		"window.zoomLevel": 1,
+		"git.confirmSync": false,
+		"autoimport.showNotifications": true,
+		// "files.exclude": {
+		//     "**/.git": true,
+		//     "**/.svn": true,
+		//     "**/.hg": true,
+		//     "**/CVS": true,
+		//     "**/.DS_Store": true,
+		// },
+		"workbench.iconTheme": "material-icon-theme",
+		"explorer.confirmDelete": false,
+		"javascript.updateImportsOnFileMove.enabled": "always",
+		"typescript.updateImportsOnFileMove.enabled": "always",
+		"typescript.suggestionActions.enabled": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true,
+			"source.fixAll": true
+		},
+	}
+}
