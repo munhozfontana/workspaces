@@ -1,7 +1,18 @@
 {
-	
 	"extensions": {
 		"recommendations": [
+			"steoates.autoimport",
+			"coenraads.bracket-pair-colorizer-2",
+			"streetsidesoftware.code-spell-checker",
+			"ryanluker.vscode-coverage-gutters",
+			"be5invis.vscode-custom-css",
+			"dracula-theme.theme-dracula",
+			"usernamehw.errorlens",
+			"evan-buss.font-switcher",
+			"mhutchie.git-graph",
+			"pkief.material-icon-theme",
+			"esbenp.prettier-vscode",
+			"sonarsource.sonarlint-vscode",
 			"dbaeumer.vscode-eslint"
 		]
 	},
