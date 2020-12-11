@@ -1,12 +1,5 @@
 {
-	"folders": [
-		{
-			"path": "..\\dart\\syshouse"
-		},
-		{
-			"path": "..\\dart\\tdd_clean_architecture"
-		}
-	],
+	"folders": [],
 	"extensions": {
 		"recommendations": [
 			"nash.awesome-flutter-snippets",

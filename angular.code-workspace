@@ -1,12 +1,5 @@
 {
-  "folders": [
-    {
-      "path": "..\\angular\\training-angular"
-    },
-    {
-      "path": "..\\angular\\todo"
-    }
-  ],
+  "folders": [],
   "extensions": {
     "recommendations": [
       "angular.ng-template",
@@ -16,7 +9,6 @@
       "christian-kohler.npm-intellisense",
     ],
     "unwantedRecommendations": [
-    
       "vscjava.vscode-java-pack",
     ]
   },
@@ -25,7 +17,6 @@
     "[typescript]": {
       "editor.defaultFormatter": "vscode.typescript-language-features",
       "editor.formatOnSave": true,
-      
     },
     "[html]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode",

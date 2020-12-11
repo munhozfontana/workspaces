@@ -1,10 +1,6 @@
 {
-    "folders": [
-        {
-            "path": "..\\react\\AgendamentoSA"
-        }
-    ],
-    "settings":{
+    "folders": [],
+    "settings": {
         "workbench.colorTheme": "Default Dark+",
         // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
         // "editor.fontFamily": "Fira Code",
