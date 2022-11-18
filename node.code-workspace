@@ -18,7 +18,16 @@
 	},
 	"folders": [
 		{
-			"path": "..\\node\\clean-node-api"
+			"path": "..\\munhoz\\js\\2fa"
+		},
+		{
+			"path": "..\\munhoz\\js\\api-cielo"
+		},
+		{
+			"path": "..\\munhoz\\js\\api-jobs"
+		},
+		{
+			"path": "..\\munhoz\\js\\api-webSto"
 		}
 	],
 	"settings": {

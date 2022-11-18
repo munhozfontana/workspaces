@@ -1,9 +1,12 @@
 {
-	"folders": [],
+	"folders": [
+		{
+			"path": "../munhoz/dart/lista_compras"
+		}
+	],
 	"extensions": {
 		"recommendations": [
 			"steoates.autoimport",
-			"coenraads.bracket-pair-colorizer-2",
 			"streetsidesoftware.code-spell-checker",
 			"ryanluker.vscode-coverage-gutters",
 			"be5invis.vscode-custom-css",
@@ -16,11 +19,9 @@
 			"sonarsource.sonarlint-vscode",
 			"nash.awesome-flutter-snippets",
 			"dart-code.dart-code",
-			"bendixma.dart-data-class-generator",
 			"peterhdd.dartgettersetter",
 			"luanpotter.dart-import",
 			"dart-code.flutter",
-			"flutterando.flutter-mobx",
 			"davidwoo.flutter-auto-import",
 			"albert.tabout",
 			"redhat.vscode-yaml",
@@ -34,10 +35,8 @@
 	},
 	"settings": {
 		"workbench.colorTheme": "Dracula",
-		"terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
 		"editor.fontLigatures": true,
 		"editor.renderLineHighlight": "gutter",
-		"dart.autoImportCompletions": true,
 		"terminal.integrated.fontSize": 14,
 		"editor.fontWeight": "400",
 		"editor.formatOnSave": true,
@@ -45,12 +44,12 @@
 			"source.organizeImports": true,
 			"source.fixAll": true
 		},
-		"dart.flutterHotReloadOnSave": true,
+		"dartImport.fixOnSave": true,
+		"dart.flutterHotReloadOnSave": "allIfDirty",
 		"window.zoomLevel": 1,
 		"git.confirmSync": false,
 		"dart.warnWhenEditingFilesOutsideWorkspace": false,
 		"autoimport.filesToScan": "**/*.{dart, d}",
-		"autoimport.showNotifications": false,
 		"dart.previewFlutterUiGuides": true,
 		"files.exclude": {
 			"**/.git": true,
@@ -58,7 +57,7 @@
 			"**/.hg": true,
 			"**/CVS": true,
 			"**/.DS_Store": true,
-			// "**/*.g.dart": true,
+			"**/*.g.dart": true,
 		},
 		"autoimport.doubleQuotes": true,
 		"workbench.iconTheme": "material-icon-theme",
@@ -71,8 +70,21 @@
 		],
 		"cSpell.enabled": true,
 		"cSpell.words": [
+			"Autovalidate",
+			"Backlink",
+			"compras",
+			"cupertino",
+			"dartz",
+			"lista",
 			"mockito",
-			"syshouse"
+			"mocktail",
+			"nbsp",
+			"objectbox",
+			"syshouse",
+			"Usecase",
+			"usecases",
+			"Usercase",
+			"vsync"
 		],
 		"[dart]": {
 			"editor.formatOnSave": true,
@@ -85,6 +97,33 @@
 			"editor.suggestSelection": "first",
 			"editor.tabCompletion": "onlySnippets",
 			"editor.wordBasedSuggestions": false,
+			"files.saveConflictResolution": "overwriteFileOnDisk"
 		},
+		"github-actions.workflows.pinned.workflows": [
+			".github/workflows/push_docker.yaml"
+		],
+		"yaml.schemas": {
+			"https://json.schemastore.org/dart-test.json": [
+				"file:///c%3A/dev/dart/analises_economicas_mobile/.github/workflows/build.yml",
+				"file:///c%3A/dev/dart/analises_economicas_mobile/.github/workflows/ci_cd.yml",
+				"file:///c%3A/dev/dart/analises_economicas/lib/app/main/domain/use_cases/impl/post/find_html_post_use_case.dart"
+			],
+			"https://json.schemastore.org/github-action.json": "file:///c%3A/dev/dart/analises_economicas_mobile/.github/workflows/ambiente_android.yml"
+		},
+		"dart.flutterSdkPath": "C:\\Users\\munho\\fvm\\default\\bin",
+		"dart.sdkPaths": [
+			"C:\\Users\\munho\\fvm\\default\\bin",
+			"C:\\tools\\dart-sdk\\bin",
+		],
+		"dart.autoImportCompletions": true,
+		"dart.openDevTools": "flutter",
+		"dart.showSkippedTests": false,
+		"dart.updateImportsOnRename": true,
+		"dart.flutterGutterIcons": true,
+		"dart.warnWhenEditingFilesInPubCache": false,
+		"dart.debugExternalPackageLibraries": false,
+		"dart.debugSdkLibraries": false,
+		"git.showPushSuccessNotification": true,
+		"autoimport.showNotifications": true,
 	}
 }

@@ -1,5 +1,9 @@
 {
-  "folders": [],
+  "folders": [
+    {
+      "path": "../munhoz/js/analises-economicas"
+    }
+  ],
   "extensions": {
     "recommendations": [
       "steoates.autoimport",
@@ -18,17 +22,15 @@
       "cyrilletuzi.angular-schematics",
       "infinity1207.angular2-switcher",
       "eg2.vscode-npm-script",
-      "christian-kohler.npm-intellisense",
+      "christian-kohler.npm-intellisense"
     ],
-    "unwantedRecommendations": [
-      "vscjava.vscode-java-pack",
-    ]
+    "unwantedRecommendations": ["vscjava.vscode-java-pack"]
   },
   "settings": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[typescript]": {
       "editor.defaultFormatter": "vscode.typescript-language-features",
-      "editor.formatOnSave": true,
+      "editor.formatOnSave": true
     },
     "[html]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -38,6 +40,15 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode",
       "editor.formatOnSave": true
     },
-    "editor.formatOnSave": false
+    "workbench.colorTheme": "Dracula",
+    "editor.fontLigatures": true,
+    "editor.renderLineHighlight": "gutter",
+    "terminal.integrated.fontSize": 14,
+    "editor.fontWeight": "400",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll": true
+    }
   }
 }
